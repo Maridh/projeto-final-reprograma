@@ -1,0 +1,43 @@
+.menu {
+    margin: 2rem;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.link {
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e07924;
+    text-shadow: 0 0 0.1em rgb(228, 202, 89)
+}
+
+@media (max-width: 768px) {
+    .menu li {
+        font-size: 15px;
+        margin: 14px;
+    }
+    a:hover {
+        color: #e07924;
+        text-shadow: 0 0 0.1em rgb(228, 202, 89)
+    }
+}
+
+@media (max-width: 375px) {
+    .menu li {
+        font-size: 13px;
+        margin: 9px;
+        margin-left: 0px;
+        margin-right: 17px;
+    }
+    a:hover {
+        color: #e07924;
+        text-shadow: 0 0 0.1em rgb(228, 202, 89)
+    }
+}

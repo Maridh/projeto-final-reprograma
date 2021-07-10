@@ -1,0 +1,101 @@
+.card {
+    background: floralwhite;
+    opacity: 0.9;
+    left: 50%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 15%;
+}
+
+.style {
+    height: 100vh;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#text1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.guide1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.guide1:hover {
+    transform: scale(1.1);
+}
+
+.points {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.bullet {
+    margin-right: 20px;
+}
+
+#go {
+    border: white;
+    background: blanchedalmond;
+    width: 280px;
+    padding: 10px;
+}
+
+.justgo p {
+    position: absolute;
+    margin-left: 557px;
+    bottom: 50%;
+}
+
+@media (max-width: 768px) {
+    .card {
+        left: 18%;
+    }
+    .justgo p {
+        position: absolute;
+        margin-left: 307px;
+        bottom: 52%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .card {
+        left: 2%;
+        width: 345px;
+    }
+    .points {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .card h3 {
+        font-size: 16px;
+    }
+    .guide1 {
+        margin-left: 20px;
+    }
+    .justgo p {
+        position: absolute;
+        margin-left: 49px;
+        bottom: 52%;
+        display: flex;
+        justify-content: center;
+    }
+    .magic {
+        margin-left: -100px;
+    }
+}

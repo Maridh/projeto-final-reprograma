@@ -1,0 +1,28 @@
+.footer {
+    margin: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer li {
+    margin-left: 0rem;
+    list-style: none;
+    color: rgb(19, 18, 18);
+    margin-left: 70px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .footer li {
+        margin: 0.5rem;
+        font-size: 14px;
+    }
+}
