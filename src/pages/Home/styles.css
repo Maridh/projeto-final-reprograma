@@ -82,7 +82,7 @@ p {
     position: absolute;
     width: 340px;
     height: 230px;
-    top: 40%;
+    top: 300px;
   }
   #cardhome2 {
     background: rgb(219, 170, 71);
@@ -91,7 +91,7 @@ p {
     position: absolute;
     width: 340px;
     height: 230px;
-    top: 74%;
+    top: 550px;
     display: flex;
     flex-wrap: wrap;
     margin: 0px 0px 0px 0px;
